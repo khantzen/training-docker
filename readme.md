@@ -19,8 +19,8 @@ Une vm linux debian based en ayant installé
 Sur le gitlab arolla, récupérer les projets suivants
 
 - GuildeDevops / Ansible Docker Install
-- GuildeDevops / Arollacademy Quote picker api
-- GuildeDevops / Arollacademy Quote picker front
+- Quote picker api https://github.com/khantzen/training-docker-backend
+- Arollacademy Quote picker front ou https://github.com/khantzen/training-docker-front-end
 
 
 ### Étape de l'atelier
