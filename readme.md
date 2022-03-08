@@ -1,4 +1,4 @@
-# Arolla Academy - CI / CD Jour 1
+# Training Docker for beginer 
 
 Slides: https://docs.google.com/presentation/d/177G9D130jxb59elNG4qItYKd6ikAwTENpRZMYFNjnuQ/edit?usp=sharing
 
