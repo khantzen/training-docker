@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    backend:
+        image: quote-picker-api:1.0
+    front:
+        image: quote-picker-front:1.0
+        ports:
+            - "80:80"

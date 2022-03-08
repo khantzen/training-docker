@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    server_name quote-picker.local;
+
+    location / {
+    	root /usr/src/www/quote-picker-front;
+	try_files $uri $uri/ /index.html;
+    }
+
+    location /api {
+        proxy_pass http://backend:4567;
+    }
+}
+

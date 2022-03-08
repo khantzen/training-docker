@@ -1,0 +1,5 @@
+From nginx:1.21.5
+
+COPY server.docker.nginx /etc/nginx/conf.d/default.conf
+
+COPY dist /usr/src/www/quote-picker-front

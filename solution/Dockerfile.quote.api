@@ -1,0 +1,8 @@
+From openjdk:17
+
+COPY quotes /usr/src/quote-picker/quotes
+COPY target/backend-1.0-SNAPSHOT-jar-with-dependencies.jar /usr/src/quote-picker/backend.jar
+
+WORKDIR /usr/src/quote-picker
+
+CMD ["java", "-jar", "backend.jar"]
