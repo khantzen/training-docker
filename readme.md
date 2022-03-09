@@ -22,9 +22,9 @@ Récupérer les projets suivants
 
 > Le code et la configuration des deux applications n'ont pas besoin d'être modifié lors de l'atelier.
 
-> Cet atelier n'a besoin que d'images officielles pour être réalisés.
+> Cet atelier n'a besoin que d'images officielles pour être réalisé.
 
-> Il est préférable de réaliser cet atelier en compagnie d'un animateur ou avec la doc' docker à côté, cet énoncé ce concentre surtout sur la pratique et peu sur la théorie.
+> Il est préférable de réaliser cet atelier en compagnie d'un animateur ou avec la doc' docker à côté, cet énoncé se concentre surtout sur la pratique et peu sur la théorie.
 
 ### Étape de l'atelier
 
