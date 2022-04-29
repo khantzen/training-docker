@@ -16,7 +16,7 @@ Un environnement linux de préférence, je n'ai réalisé cet exercice que sur u
 
 Récupérer les projets suivants
 
-- Ansible Docker Install (À venir)
+- Ansible Docker : https://github.com/khantzen/ansible-docker-install
 - Quote picker api: https://github.com/khantzen/training-docker-backend
 - Quote picker front: ou https://github.com/khantzen/training-docker-front-end
 
