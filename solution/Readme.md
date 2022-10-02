@@ -90,7 +90,13 @@ include       /etc/nginx/sites-enabled/*.conf;
 include       mime.types;
 default_type  application/octet-stream;
 
-``` 
+```
+
+Redémarez nginx
+
+```shell
+sudo systemctl restart nginx
+```
 
 ---
 
