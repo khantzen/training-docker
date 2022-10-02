@@ -75,7 +75,7 @@ sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
 
 Ouvrez le nginx conf (en sudo) et modifier comme suit
 
-- Décommentez la ligne user et renseigner votre user
+- Décommenter la ligne user et renseigner votre user
 - Dans le bloc http rajouter `/etc/nginx/sites-enabled/*.conf` 
 
 ```nginx
