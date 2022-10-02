@@ -1,5 +1,25 @@
 # Résolution
 
+## Installation de docker
+
+- Sur debian utiliser le job ansible
+- Sur archlinux, installer via pacman
+
+```shell
+sudo pacman -Sy docker
+```
+
+Démarer le daemon docker
+
+```shell
+sudo systemctl start docker
+```
+
+> La ligne de commande docker correspond au client docker qui va interragir avec une api que l'on appelle le daemon docker
+
+Lancer la commande `docker run hello-world` 
+
+
 ## Build et run des apis
 
 ```shell
