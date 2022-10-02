@@ -57,6 +57,44 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo pacman -Sy nginx
 ```
 
+---
+
+### Config nginx ArchLinux
+
+Créer le dossier sites-enabled
+
+```shell
+sudo mkdir -p /etc/nginx/sites-enabled
+```
+
+Backup de la conf nginx
+
+```shell
+sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
+``` 
+
+Ouvrez le nginx conf (en sudo) et modifier comme suit
+
+- Décommentez la ligne user et renseigner votre user
+- Dans le bloc http rajouter `/etc/nginx/sites-enabled/*.conf` 
+
+```nginx
+user votre_user;
+worker_processes  1;
+
+....
+
+http {
+
+include       /etc/nginx/sites-enabled/*.conf;
+include       mime.types;
+default_type  application/octet-stream;
+
+``` 
+
+---
+
+
 
 - Rajouter le host "quote-picker.local" sur la machine
 
