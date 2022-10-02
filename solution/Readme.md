@@ -50,9 +50,13 @@ docker run --rm -it -p 8080:4567 quoter-api:1.0
 - Installer nginx et supprimer la conf par défaut
 
 ```shell
+# Debian
 sudo apt install nginx
 sudo rm /etc/nginx/sites-enabled/default
+# Arch
+sudo pacman -Sy nginx
 ```
+
 
 - Rajouter le host "quote-picker.local" sur la machine
 
